@@ -1,0 +1,144 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>HH | Admin</title>
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <!--external css-->
+  <link href="{% static 'lib/font-awesome/css/font-awesome.css' %}" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+  <section id="container">
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="index.html" class="logo"><b>DASH<span>IO</span></b></a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <ul class="nav top-menu">
+          <!-- inbox dropdown start-->
+          <li id="header_inbox_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-envelope-o"></i>
+              <span class="badge bg-theme">5</span>
+            </a>
+          </li>
+          <!-- inbox dropdown end -->
+        </ul>
+        <!--  notification end -->
+      </div>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a class="logout" href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--header end-->
+    
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a href="profile.html"><img src="{% static 'img/ui-sam.jpg' %}" class="img-circle" width="80"></a></p>
+          <h5 class="centered">Sam Soffes</h5>
+          <li class="mt">
+            <a class="active" href="admin">
+              <i class="fa fa-dashboard"></i>
+              <span>Dashboard</span>
+              </a>
+          </li>
+          <li class="mt">
+            <a class="active" href="addpost">
+              <i class="fa fa-dashboard"></i>
+              <span>Add Post</span>
+              </a>
+          </li>
+          <li class="mt">
+            <a class="active" href="comments">
+              <i class="fa fa-dashboard"></i>
+              <span>Comments</span>
+              </a>
+          </li>
+          <li class="mt">
+            <a class="active" href="profile">
+              <i class="fa fa-dashboard"></i>
+              <span>Profile</span>
+              </a>
+          </li>
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!--main content start-->
+    <section id="main-content">
+      <br><br><br><br><br>
+<div id="wrapper">
+  <div id="page-wrapper">
+      <div class="container-fluid">
+          <div class="row">
+              <h1 class="page-header">Profile Page</h1>
+              <div class="table-responsive">
+              <table class="table table-striped table-hover table-bordered">
+                  <tr colspan="2"><img src="users/profile_pics/defaults/head_1.png" width="100px"></tr>
+                  <tr>
+                      <td><b>Username</b></td>
+                      <td>Hitchhicker</td>
+                  </tr>
+                  <tr>
+                      <td><b>FirstName</b></td>
+                      <td>Parth</td>
+                  </tr>
+                  <tr>
+                    <td><b>LastName</b></td>
+                    <td>Panchal</td>
+                  </tr>
+                  <tr>
+                    <td><b>Email</b></td>
+                    <td>Parth@mail.com</td>
+                  </tr>
+                  <tr>
+                    <td><b>Role</b></td>
+                    <td>Admin</td>
+                  </tr>
+              </table>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+    </section>
+    <!--main content end-->
+    <!--footer start-->
+   
+    <!--footer end-->
+  </section>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+
+  <script src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}"></script>
+  <!--common script for all pages-->
+  <script src="{% static 'lib/common-scripts.js' %}"></script>
+</body>
+
+</html>
