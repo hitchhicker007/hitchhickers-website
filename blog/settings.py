@@ -1,4 +1,4 @@
-
+import django_heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -127,3 +127,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
+
