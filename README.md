@@ -1,6 +1,8 @@
-# hitchhicker's website
+# HitchHicker's website
 Source code of my personal website.
 link of my website https://hitchhicker.pythonanywhere.com/
+
+## AUTHOR: PARTH PANCHAL (HITCH HICKER)
 
 ## DON'T COPY THIS CODE WITHOUT GIVE ME THE CREDITS!!
 
@@ -31,3 +33,5 @@ To create new admin user open cmd in project dir.
 python manage.py createsuperuser
 ```
 Add **/admin** in url to go to Admin Panel
+
+## IG: instagram.com/hitch_hicker_007
