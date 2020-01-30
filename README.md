@@ -2,6 +2,8 @@
 Source code of my personal website.
 link of my website https://hitchhicker.pythonanywhere.com/
 
+## DON'T COPY THIS CODE WITHOUT GIVE ME THE CREDITS!!
+
 ### REQUIREMENTS:
 - python3
 - django framework
