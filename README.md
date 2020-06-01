@@ -1,6 +1,6 @@
 # HitchHicker's website
 Source code of my personal website.
-link of my website https://hitchhicker.tech/
+link of my website http://hitchhicker.tech/
 
 ## AUTHOR: PARTH PANCHAL (HITCH HICKER)
 
